@@ -237,14 +237,14 @@ body{background: #eee ;font-family: 'Open Sans', sans-serif;}h3{font-size: 30px;
 
 /***** Top menu *****/
 .navbar {
-	background: rgba(0, 0, 0, 0) !important; 
+	background: rgb(35, 13, 40) !important; 
 	-o-transition: all .6s; -moz-transition: all .6s; -webkit-transition: all .6s; -ms-transition: all .6s; transition: all .6s;
 	backface-visibility: hidden;
 	visibility: visible;
 }
-.navbar.navbar-no-bg { background: rgba(0, 0, 0, 0); }
+.navbar.navbar-no-bg { background: rgb(35, 13, 40); }
 .navbar-dark .navbar-nav { font-size: 15px; color: #fff; font-weight: 600; }
-.navbar-dark .navbar-nav .nav-link {  color: rgba(255, 255, 255, 0.8); border: 0; background: rgba(0, 0, 0, 0.8);}
+.navbar-dark .navbar-nav .nav-link {  color: rgba(255, 255, 255, 0.8); border: 0; background: rgb(35, 13, 40);}
 .navbar-dark .navbar-nav .nav-link:hover { color: #fff; }
 .navbar-dark .navbar-nav .nav-link:focus { color: #fff; outline: 0; }
 .navbar-expand-md .navbar-nav .nav-link { padding-left: 1rem; padding-right: 1rem; }
@@ -342,7 +342,8 @@ body{background: #eee ;font-family: 'Open Sans', sans-serif;}h3{font-size: 30px;
 
 .about-us-box-text {
 	padding-right: 30px;
-	text-align: left;
+	text-align: justify;
+  	text-justify: inter-word;
 	color: #fff !important;
 }
 
@@ -382,7 +383,7 @@ body{background: #eee ;font-family: 'Open Sans', sans-serif;}h3{font-size: 30px;
 }
 
 .seminarTTL h1{
-	color: rgb(35,13,40);
+	color: rgb(236, 226, 238);
 	font-size: 50px;
 	position: relative;
 	padding-top: 30px;
@@ -511,6 +512,7 @@ body{background: #eee ;font-family: 'Open Sans', sans-serif;}h3{font-size: 30px;
 
 .competition h1{
 	padding-bottom: 50px;
+	color: rgb(236, 226, 238);
 }
 
 .sliding-background {
